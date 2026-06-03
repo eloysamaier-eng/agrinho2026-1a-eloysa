@@ -1,0 +1,23 @@
+.cabecalho{
+    display:flex;
+    justify-content: center
+}   
+.cabecalho-titulo{
+    color: rgb(197, 157, 235);
+    font-weight: 800;
+}
+.cabecalho-menu{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    scroll-behavior: smooth;
+}
+
+.cabecalho-menu-item{
+    text-decoration: none;
+    color: var(--text-color);
+    margin: 0 15px;
+    font-weight: 600;
+    transition: color 0.2s;
+}
