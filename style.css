@@ -1,6 +1,7 @@
 .cabecalho{
     display:flex;
-    justify-content: center
+    justify-content:space-between;
+    align-items:center;
 }   
 .cabecalho-titulo{
     color: rgb(197, 157, 235);
@@ -16,7 +17,7 @@
 
 .cabecalho-menu-item{
     text-decoration: none;
-    color: var(--text-color);
+    color:blueviolet;
     margin: 0 15px;
     font-weight: 600;
     transition: color 0.2s;
