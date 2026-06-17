@@ -7,7 +7,7 @@
     font-size: 3rem;
     color: black;
     line-height: 1.2;
-    margin-bottom: 20px;ulo{
+    margin-bottom: 20px;
     
 }
 .cabecalho-menu{
@@ -23,13 +23,22 @@
     font-weight: 600;
     transition: color 0.2s;
 .
-cabecalho-menu-botao
+.cabecalho-menu-botao{
  background-color: black;
     color: #fff;
     border: none;
     padding: 8px 16px;
     border-radius: 20px;
-    cursor: pointer;
+     cursor: pointer;
     font-weight: 600;
     font-size: 0.9rem;
     transition: transform 0.2s;
+    
+    .problema{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 60px 5%;
+    min-height: 80vh;
+    gap: 30px;
+}
